@@ -1,0 +1,33 @@
+contains()
+ 
+python ->  array in a
+java -> List.contains(a);  
+--------------------------
+asList() 
+
+array -> ArrayList<>
+--------------------------
+charAt()
+String msg = "東京都港区赤坂";
+
+System.out.println(msg.charAt​(0));  // 東
+System.out.println(msg.charAt​(3));  // 港
+--------------------------
+startsWith()  endsWith()
+
+public class StrStartEnd {
+  public static void main(String[] args) {
+    String url = "http://www.examples.com/index.php";
+    System.out.println(url.startsWith("http://")); // 結果：true
+    System.out.println(url.endsWith(".html")); // 結果：false
+  }
+}
+--------------------------
+count()
+
+long tureCount = alive.stream().filter(b -> b == true).count();
+--------------------------
+fill()
+
+java.util.Arrays.fill(array,true)
+
