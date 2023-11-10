@@ -30,4 +30,8 @@ long tureCount = alive.stream().filter(b -> b == true).count();
 fill()
 
 java.util.Arrays.fill(array,true)
+--------------------------
+has.next()
+
+
 
