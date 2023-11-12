@@ -32,6 +32,14 @@ fill()
 java.util.Arrays.fill(array,true)
 --------------------------
 has.next()
+--------------------------
+break;
 
+if (sArray.get(count).equals(search)) {
+    System.out.println(count+1);
+    break;
+} else if (count == sArray.size()-1) {
+    System.out.println(-1);
+} 
 
 
