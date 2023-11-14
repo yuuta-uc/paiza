@@ -1,3 +1,5 @@
+//https://paiza.jp/works/mondai/data_structure/data_structure__string_boss
+
 package paiza.mondai.dataStructure;
 import java.util.*;
 
