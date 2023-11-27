@@ -6,8 +6,6 @@ class Path {
 	String al;
 	int path1;
 	int path2;
-
-
 }
 
 public class Class_primer__closed_maze {
