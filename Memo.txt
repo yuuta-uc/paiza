@@ -3,6 +3,7 @@ contains()
 python ->  array in a
 java -> List.contains(a);  
 --------------------------
+
 asList() 
 
 array -> ArrayList<>
@@ -47,3 +48,16 @@ set LinkedHashSet<>() HashSet<>()
  Set<Integer> a = new LinkedHashSet<>();
  Integer[] arr = a.toArray(new Integer[0]);
 --------------------------
+DP 
+
+最小化
+正解 -> dp[i] = Math.min(dp[i],dp[i+1])
+間違い　-> dp[i] = Math.min(dp[i],dp[i-1])
+
+リンゴの個数が5個なら
+dp[5+1] 0 1 2 3 4 5 
+読み出しは
+dp[5]
+--------------------------
+
+
